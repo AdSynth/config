@@ -1,0 +1,23 @@
+{
+  "name": "config",
+  "version": "0.0.0",
+  "description": "Yaml configuration file loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AdSynth/config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdSynth/config/issues"
+  },
+  "dependencies": {
+    "ideal": "git://github.com/richcollins/ideal.git",
+    "js-yaml": "3.0.2"
+  },
+  "homepage": "https://github.com/AdSynth/config"
+}
