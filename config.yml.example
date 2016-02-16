@@ -1,6 +1,0 @@
-defaults: &defaults
-    example_key: '123456789'
-local:
-    <<: *defaults
-production:
-    <<: *defaults

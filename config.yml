@@ -1,0 +1,28 @@
+defaults: &defaults
+  example_key: '123456789'
+
+local:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
+test:
+  some_var: true
+  nestingDefaultsTest:
+    default: "bar"
+    baz:
+      default:
+        - sparta
+        - athens
+      napolean:
+       - moscow
+       - waterloo
+      caesar:
+        - gaul
+        - britannia
+  nestingDefaultsTestWithoutDefault:
+    baz:
+
+test-two:
+  some_var: false

@@ -1,10 +1,10 @@
 {
   "name": "config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Yaml configuration file loader",
-  "main": "index.js",
+  "main": "config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha test"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,15 @@
     "url": "https://github.com/AdSynth/config/issues"
   },
   "dependencies": {
-    "ideal": "git://github.com/richcollins/ideal.git",
-    "js-yaml": "3.0.2"
+    "ideal": "git://github.com/richcollins/ideal.git#c2efa6",
+    "js-yaml": "3.5.3",
+    "lodash": "3.10.1"
   },
-  "homepage": "https://github.com/AdSynth/config"
+  "homepage": "https://github.com/AdSynth/config",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chainsinon": "^0.1.1",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  }
 }
